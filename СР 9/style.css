@@ -1,0 +1,23 @@
+body {
+	margin: 0;
+}
+
+.pink {
+	width: 80px;
+	height: 40px;
+	background-color: #f08080;
+	border: 5px solid #000;
+	border-radius: 10px;
+	margin: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.pink p {
+	margin: 0;
+}
+
+.blocks {
+	display: flex;
+}

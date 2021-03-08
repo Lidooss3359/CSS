@@ -1,0 +1,66 @@
+body {
+	margin: 0;
+	background-color: lightgrey;
+}
+
+.creslo {
+	width: 122px;
+	height: 176.66px;
+}
+
+.info {
+	width: 220px;
+	height: 250px;
+	margin-left: 20px;
+}
+
+.container {
+	display: flex;
+	margin: 50px;
+	background-color: #fff;
+	width: 360px;
+	padding: 30px;
+}
+
+.name {
+	font-size: 25px;
+}
+
+.code {
+	margin: 0;
+	color: grey;
+}
+
+.text {
+	margin: 10px 0 0 0;
+}
+
+.price {
+	font-size: 25px;
+	margin: 20px 0 10px 0;
+}
+
+.button {
+	width: 175px;
+	height: 40px;
+	background-color: #ea1653;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.button_text {
+	margin: 0;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.button_link {
+	text-decoration: none;
+}
+
+.button:hover {
+	background-color: #af1541;
+	transition: .1s;
+}
